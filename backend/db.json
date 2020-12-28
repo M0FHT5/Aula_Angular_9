@@ -2,7 +2,7 @@
   "products": [
     {
       "id": 1,
-      "name": "Caneta BIC Preta",
+      "name": "Caneta BIC Azul",
       "price": 5.89
     },
     {
@@ -12,9 +12,8 @@
     },
     {
       "id": 3,
-      "name": "Sangung Galaxy S20+",
-      "price": 2789.65
+      "name": "Sangung Galaxy S20+ Ultra",
+      "price": "7520.00"
     }
-
   ]
 }
