@@ -1,11 +1,6 @@
 {
   "products": [
     {
-      "id": 1,
-      "name": "Caneta BIC Azul",
-      "price": 5.89
-    },
-    {
       "id": 2,
       "name": "Notebook Mac Pro",
       "price": 12000.89
@@ -14,6 +9,11 @@
       "id": 3,
       "name": "Sangung Galaxy S20+ Ultra",
       "price": "7520.00"
+    },
+    {
+      "name": "Pincel Atômico",
+      "price": "5.98",
+      "id": 5
     }
   ]
 }

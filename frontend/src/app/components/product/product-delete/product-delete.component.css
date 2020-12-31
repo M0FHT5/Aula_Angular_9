@@ -1,0 +1,17 @@
+.titulo {
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.card {
+    max-width: 500px;
+}
+
+button {
+    margin: 20px 10px 0 0;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+}

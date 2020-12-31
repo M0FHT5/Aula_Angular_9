@@ -29,12 +29,12 @@ export class ProductService {
     return this.http.get<Product[]>(this.baseUrl)
   }
 
-  delete(id: Product): Observable<Product> {
+  delete(id: number): Observable<Product> {
     const url = `${this.baseUrl}/${id}`
     return this.http.delete<Product>(url)
   }
 
-  readById(id: string): Observable<Product> {
+  readById(id: number): Observable<Product> {
     const url = `${this.baseUrl}/${id}`
     return this.http.get<Product>(url)
   }

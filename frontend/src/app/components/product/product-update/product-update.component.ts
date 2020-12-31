@@ -24,7 +24,7 @@ export class ProductUpdateComponent implements OnInit {
   ngOnInit(): void {
     // retorna o parametro definido no path da rota em app-routing
     const id = this.route.snapshot.paramMap.get('id')
-    this.productService.readById(id!).subscribe(product => {
+    this.productService.readById(+id!).subscribe(product => {
       this.product = product;
     })
   }

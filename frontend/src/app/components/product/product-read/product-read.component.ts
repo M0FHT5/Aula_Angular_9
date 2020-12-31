@@ -10,10 +10,7 @@ import { Component, OnInit } from '@angular/core';
 export class ProductReadComponent implements OnInit {
   
 
-  product: Product = {
-    name: '',
-    price: null
-  }
+  product!: Product
 
   products: Product[] = [];
   displayedColumns = ['id', 'name', 'price', 'action']
