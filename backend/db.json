@@ -14,6 +14,11 @@
       "name": "Pincel Atômico",
       "price": "5.98",
       "id": 5
+    },
+    {
+      "name": "Mídia DVD",
+      "price": "3.59",
+      "id": 6
     }
   ]
 }
